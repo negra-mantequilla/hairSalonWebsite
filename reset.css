@@ -7,10 +7,11 @@
 
 /* Remove default padding */
 ul[class],
-ol[class] {
+ol[class],
+li {
   padding: 0;
+list-style: none;
 }
-
 /* Remove default margin */
 body,
 h1,

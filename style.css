@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: space-between;
+}
+
+.header_mp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ background-image:url(./background-img1.jpeg) ;
+  height: 15em;
+  /*border: 3px solid red*/
+  
+}
+
+a {
+  font-family: 'Train One', cursive;
+  color: black;
+  text-decoration: none;
+ 
+}
+
+#header_l-nav ul{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  margin-left: 18em;
+  margin-top: 3em;
+ 
+ }
+
+
+
+
+ #header_r-nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3.2em;
+
+ }
+
+
+#title1_mp span {
+  padding-left: .5em;
+  font-family: 'Faster One', cursive;
+  font-size: 3.5em
+
+}
+
+#title2_mp {
+  padding-right: 2em;
+ margin-top: 1.8em;
+  
+  font-family: 'Faster One', cursive;
+  font-size: 3.5em;
+}
+
+.car-logo {
+ height: 14em;
+  padding-top: 5em;
+  padding-bottom: 2em;
+  padding-left: 3em;
+}
+
+.plus-icon {
+  height: 10em;
+  padding-top: 7em;
+}
+
+.barber-logo {
+  height: 15em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.middle-container_mp {
+  height: 23em;
+  /*border: 3px solid yellowgreen;*/
+  display: flex;
+ background-image: url(./middle-background.png);
+ background-repeat: no-repeat;
+ background-size: 100%;
+ background-position-y: -6em;
+}
+
+.bottom-container_mp {
+  height: 19em;
+  /*border: 3px solid pink;*/
+  background-image: url(./middle-bottom_background.jpeg);
+}
+
+.footer_mp {
+  height: 8em;
+  /*border: 3px solid purple;*/
+  display: flex;
+  background-image: url(./background-img1.jpeg);
+  fi
+}
