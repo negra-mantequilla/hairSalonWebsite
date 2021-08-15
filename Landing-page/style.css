@@ -85,23 +85,109 @@ a {
 .middle-container_mp {
   height: 23em;
   /*border: 3px solid yellowgreen;*/
-  display: flex;
- background-image: url(./middle-background.png);
+  
+  display: inline-block;
+  
+  background-image: url(./middle-background.png);
  background-repeat: no-repeat;
  background-size: 100%;
  background-position-y: -6em;
 }
 
+.middle-container_mp h1 { 
+  margin-top: .5em;
+  margin-left: .5em;
+  margin-bottom: .5em;
+font-family: 'Cabin Sketch', cursive;
+}
+
+.middle-container_mp span {
+  
+  width: 2%;
+  margin-left: 2em;
+  line-height: 2.5em;
+  
+}
+
+.middle-container_mp #span_1 {
+  margin-left: 1em;
+  font-size: 1.5em;
+  margin-bottom: .2em;
+  background:tan;
+  color: white;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.middle-container_mp #span_2 {
+  font-family: 'Cabin Sketch', cursive;
+  background: white;
+ padding: .3em;
+}
+
+.middle-container_mp #span_3 { 
+  background: white;
+  padding: .2em;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.middle-container_mp #span_4 {
+  background: white;
+  padding: .4em;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.middle-container_mp #span_4a {
+  padding: .4em;
+  background: white;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+
 .bottom-container_mp {
   height: 19em;
   /*border: 3px solid pink;*/
   background-image: url(./middle-bottom_background.jpeg);
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+}
+
+
+
+li #gallery1 {
+    width: 74em;
+    margin-top: 1.6em;
+    padding-right: 10em;
+    margin-left: 5em;
+    
+}
+
+li #gallery2 {
+  width: 68.2em;
+  margin-top: 1.8em;
+  padding-right: 6.5em;
+  
+}
+
+li #gallery3 {
+  width: 59.2em;
+  padding-right: 3em;
+  padding-top: 1.8em;
 }
 
 .footer_mp {
-  height: 8em;
+  height: 12em ;
   /*border: 3px solid purple;*/
-  display: flex;
+  align-content: center;
   background-image: url(./background-img1.jpeg);
-  fi
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+ 
 }
+
+.footer_mp #facebook_icon {
+  width: 6em;
+}
+
