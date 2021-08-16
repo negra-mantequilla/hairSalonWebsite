@@ -4,7 +4,7 @@
 }
 
 body {
-  
+  background-image: url(./background-img1.jpeg);
   margin: 0;
   width: 100%;
   display: flex;
@@ -12,22 +12,50 @@ body {
   justify-items: space-between;
 }
 
-.header_mp {
+#header {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+}
+
+body #header-img {
+  width: 8em;
+  padding-top: 1.6em;
+  padding-right: 4em;
+}
+
+body #plus-logo {
+  width: 3.5em;
+  padding-top: 3em;
+}
+
+body #barber-logo {
+  width: 8.8em;
+  padding-top: .8em;
+  padding-left: 1.2em;
+}
+
+
+body #navigation-div ul{
+  list-style: none;
+  display: flex;
   justify-content: space-around;
- background-image:url(./background-img1.jpeg) ;
-  height: 15em;
-  /*border: 3px solid red*/
+  text-decoration: none;
+  color: white;
+  margin-bottom: 0;
+}
+
+body #navigation-div #title-div {
+  display: flex;
+  justify-content: center;
+}
+
+body #navigation li {
+  padding: 4em 0;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 1.5em;
   
 }
 
-a {
-  font-family: 'Train One', cursive;
-  color: black;
-  text-decoration: none;
- 
-}
 
 #header_l-nav ul{
   display: flex;

@@ -26,10 +26,10 @@ body #barber-logo {
   padding-left: 1.2em;
 }
 
-body #navigation {
+body #navigation-div ul{
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   text-decoration: none;
   color: white;
   margin-bottom: 0;
@@ -41,8 +41,7 @@ body #navigation-div #title-div {
 }
 
 body #navigation li {
-  
-  padding:4em;
+  padding: 4em 0;
   font-family: 'Cabin Sketch', cursive;
   font-size: 1.5em;
   
@@ -57,7 +56,7 @@ body #blog-div1 {
 
 body #blog-div1 p {
   padding-left: 10%;
-  width: 60%;
+  width: 40%;
 }
 
 body #blog-div1 h3 {
@@ -68,6 +67,47 @@ body #blog-div1 #blog-img1 {
   width: 100%;
   padding-left: 5%;
   
+}
+
+
+
+body #blog-div2 {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  padding-top: 10%;
+}
+
+body #blog-div2 p {
+  padding-left: 10%;
+  width: 40%;
+}
+
+
+body #blog-div2 h3 {
+  padding-left: 10%;
+}
+
+body #blog-div2 #blog-img2 {
+  width: 27.4em;
+  padding-left: 5%;
+  
+}
+
+.footer_mp {
+  height: 12em ;
+  /*border: 3px solid purple;*/
+  align-content: center;
+  background-image: url(./background-img1.jpeg);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+
+.footer_mp #facebook_icon {
+  width: 6em;
 }
 
 
