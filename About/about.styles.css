@@ -51,6 +51,8 @@ body #navigation li {
 body #bio-div {
   display: flex;
   justify-content: center;
+  background-image: url(../Contact-page/contact-background.jpeg);
+  height: 20em;
 }
 
 body #bio-div #bio-img {
@@ -87,3 +89,15 @@ body h3 {
   width: 6em;
 }
 
+@media (max-width: 776px) {
+  .footer_mp {
+    flex-direction: column;
+    padding-top: 12em;
+  }
+  .footer_mp p {
+    padding-bottom: 5%;
+  }
+  body #bio-div {
+    height: 40em;
+  }
+}

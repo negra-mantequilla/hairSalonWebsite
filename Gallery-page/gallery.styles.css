@@ -94,3 +94,30 @@ body #body-div #table-div2 #gallery6 {
   width: 31em;
   
 }
+
+.footer_mp {
+  height: 12em ;
+  /*border: 3px solid purple;*/
+  align-content: center;
+  background-image: url(./background-img1.jpeg);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+
+.footer_mp #facebook_icon {
+  width: 6em;
+}
+
+@media (max-width: 776px) {
+  .footer_mp {
+    flex-direction: column;
+    padding-top: 12em;
+  }
+  .footer_mp p {
+    padding-bottom: 5%;
+  }
+
+}

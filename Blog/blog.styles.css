@@ -110,5 +110,18 @@ body #blog-div2 #blog-img2 {
   width: 6em;
 }
 
+@media (max-width: 776px) {
+  .footer_mp {
+    flex-direction: column;
+    padding-top: 12em;
+  }
 
+  body #blog-div2 {
+    flex-direction: column;
+  }
+  body #blog-div1 {
+    flex-direction: column;
+  }
+
+}
 

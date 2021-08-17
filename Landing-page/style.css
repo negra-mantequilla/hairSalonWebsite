@@ -219,3 +219,12 @@ li #gallery3 {
   width: 6em;
 }
 
+@media (max-width: 576px) {
+  .footer_mp {
+    flex-direction: column;
+    padding-top: 12em;
+  }
+  .footer_mp p {
+    padding-bottom: 5%;
+  }
+}
