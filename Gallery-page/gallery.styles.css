@@ -1,0 +1,123 @@
+
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background: cadetblue;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+}
+
+body #header-img {
+  width: 8em;
+  padding-top: 1.6em;
+  padding-right: 4em;
+}
+
+body #plus-logo {
+  width: 3.5em;
+  padding-top: 3em;
+}
+
+body #barber-logo {
+  width: 8.8em;
+  padding-top: .8em;
+  padding-left: 1.2em;
+}
+
+body #navigation-div ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 0;
+}
+
+body #navigation-div #title-div {
+  display: flex;
+  justify-content: center;
+}
+
+body #navigation li {
+  padding: 4em 0;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 1.5em;
+  
+}
+
+
+body #body-div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body #body-div #table-div {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+}
+
+body #body-div #table-div #gallery1 {
+  width: 31em;
+}
+
+body #body-div #table-div #gallery2 {
+  width: 31em;
+}
+
+body #body-div #table-div #gallery3 {
+  width: 31em;
+}
+
+body #body-div #table-div2 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  
+} 
+
+body #body-div #table-div2 #gallery4 {
+  width: 31em;
+}
+
+body #body-div #table-div2 #gallery5 {
+  width: 31em;
+}
+
+body #body-div #table-div2 #gallery6 {
+  width: 31em;
+  
+}
+
+.footer_mp {
+  height: 12em ;
+  /*border: 3px solid purple;*/
+  align-content: center;
+  background-image: url(./background-img1.jpeg);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+
+.footer_mp #facebook_icon {
+  width: 6em;
+}
+
+@media (max-width: 776px) {
+  .footer_mp {
+    flex-direction: column;
+    padding-top: 12em;
+  }
+  .footer_mp p {
+    padding-bottom: 5%;
+  }
+
+}

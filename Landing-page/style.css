@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-image: url(./background-img1.jpeg);
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: space-between;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+}
+
+body #header-img {
+  width: 8em;
+  padding-top: 1.6em;
+  padding-right: 4em;
+}
+
+body #plus-logo {
+  width: 3.5em;
+  padding-top: 3em;
+}
+
+body #barber-logo {
+  width: 8.8em;
+  padding-top: .8em;
+  padding-left: 1.2em;
+}
+
+
+body #navigation-div ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 0;
+}
+
+body #navigation-div #title-div {
+  display: flex;
+  justify-content: center;
+}
+
+body #navigation li {
+  padding: 4em 0;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 1.5em;
+  
+}
+
+
+#header_l-nav ul{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  margin-left: 18em;
+  margin-top: 3em;
+ 
+ }
+
+
+
+
+ #header_r-nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3.2em;
+
+ }
+
+
+#title1_mp span {
+  padding-left: .5em;
+  font-family: 'Faster One', cursive;
+  font-size: 3.5em
+
+}
+
+#title2_mp {
+  padding-right: 2em;
+ margin-top: 1.8em;
+  
+  font-family: 'Faster One', cursive;
+  font-size: 3.5em;
+}
+
+.car-logo {
+ height: 14em;
+  padding-top: 5em;
+  padding-bottom: 2em;
+  padding-left: 3em;
+}
+
+.plus-icon {
+  height: 10em;
+  padding-top: 7em;
+}
+
+.barber-logo {
+  height: 15em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.middle-container_mp {
+  height: 23em;
+  /*border: 3px solid yellowgreen;*/
+  
+  display: inline-block;
+  
+  background-image: url(./middle-background.png);
+ background-repeat: no-repeat;
+ background-size: 100%;
+ background-position-y: -6em;
+}
+
+.middle-container_mp h1 { 
+  margin-top: .5em;
+  margin-left: .5em;
+  margin-bottom: .5em;
+font-family: 'Cabin Sketch', cursive;
+}
+
+.middle-container_mp span {
+  
+  width: 2%;
+  margin-left: 2em;
+  line-height: 2.5em;
+  
+}
+
+.middle-container_mp #span_1 {
+  margin-left: 1em;
+  font-size: 1.5em;
+  margin-bottom: .2em;
+  background:tan;
+  color: white;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.middle-container_mp #span_2 {
+  font-family: 'Cabin Sketch', cursive;
+  background: white;
+ padding: .3em;
+}
+
+.middle-container_mp #span_3 { 
+  background: white;
+  padding: .2em;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.middle-container_mp #span_4 {
+  background: white;
+  padding: .4em;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+.middle-container_mp #span_4a {
+  padding: .4em;
+  background: white;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+
+.bottom-container_mp {
+  height: 19em;
+  /*border: 3px solid pink;*/
+  background-image: url(./middle-bottom_background.jpeg);
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+}
+
+
+
+li #gallery1 {
+    width: 74em;
+    margin-top: 1.6em;
+    padding-right: 10em;
+    margin-left: 5em;
+    
+}
+
+li #gallery2 {
+  width: 68.2em;
+  margin-top: 1.8em;
+  padding-right: 6.5em;
+  
+}
+
+li #gallery3 {
+  width: 59.2em;
+  padding-right: 3em;
+  padding-top: 1.8em;
+}
+
+.footer_mp {
+  height: 12em ;
+  /*border: 3px solid purple;*/
+  align-content: center;
+  background-image: url(./background-img1.jpeg);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+
+.footer_mp #facebook_icon {
+  width: 6em;
+}
+
+@media (max-width: 576px) {
+  .footer_mp {
+    flex-direction: column;
+    padding-top: 12em;
+  }
+  .footer_mp p {
+    padding-bottom: 5%;
+  }
+}

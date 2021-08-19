@@ -1,0 +1,127 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background: burlywood;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+}
+
+body #header-img {
+  width: 8em;
+  padding-top: 1.6em;
+  padding-right: 4em;
+}
+
+body #plus-logo {
+  width: 3.5em;
+  padding-top: 3em;
+}
+
+body #barber-logo {
+  width: 8.8em;
+  padding-top: .8em;
+  padding-left: 1.2em;
+}
+
+body #navigation-div ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 0;
+}
+
+body #navigation-div #title-div {
+  display: flex;
+  justify-content: center;
+}
+
+body #navigation li {
+  padding: 4em 0;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 1.5em;
+  
+}
+
+body #blog-div1 {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  padding-top: 4%;
+}
+
+body #blog-div1 p {
+  padding-left: 10%;
+  width: 40%;
+}
+
+body #blog-div1 h3 {
+  padding-left: 10%;
+}
+
+body #blog-div1 #blog-img1 {
+  width: 100%;
+  padding-left: 5%;
+  
+}
+
+
+
+body #blog-div2 {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  padding-top: 10%;
+}
+
+body #blog-div2 p {
+  padding-left: 10%;
+  width: 40%;
+}
+
+
+body #blog-div2 h3 {
+  padding-left: 10%;
+}
+
+body #blog-div2 #blog-img2 {
+  width: 27.4em;
+  padding-left: 5%;
+  
+}
+
+.footer_mp {
+  height: 12em ;
+  /*border: 3px solid purple;*/
+  align-content: center;
+  background-image: url(./background-img1.jpeg);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+
+.footer_mp #facebook_icon {
+  width: 6em;
+}
+
+@media (max-width: 776px) {
+  .footer_mp {
+    flex-direction: column;
+    padding-top: 12em;
+  }
+
+  body #blog-div2 {
+    flex-direction: column;
+  }
+  body #blog-div1 {
+    flex-direction: column;
+  }
+
+}
+
